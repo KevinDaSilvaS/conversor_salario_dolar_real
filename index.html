@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="calculadora calculadora-clt-pj dolar salario simulador estimativa simulação calculo conversão receita calcular receber">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Salario em dolar</title>
+</head>
+
+<body class="page">
+    <div class="text header">Calculadora de salario em dolar:</div>
+    <div id="col_1" class="col_80">
+        <div class="main_icons">
+            <div class="text box">
+                <p>valor do dolar atual</p>
+                <input id="dolar" class="input_text value_text" onkeyup="calculateSalary()" type="text" value="5.71">
+                <p></p>
+            </div>
+    
+            <div class="text text_icon">|</div>
+            <div class="text box">
+                <p>valor por hora(em dolar)</p>
+                <input id="payment_per_hour" class="input_text value_text" onkeyup="calculateSalary()" type="text" value="32.00">
+                <p></p>
+            </div>
+    
+            <div class="text text_icon">X</div>
+            <div class="text box">
+                <p>total de horas trabalhadas(semana)</p>
+                <input id="hours_per_week" onkeyup="calculateSalary()" class="input_text value_text" type="text" value="40">
+                <p></p>
+            </div>
+        </div>
+    
+        <div>
+            <div class="text text_icon">=</div>
+        </div>
+    
+        <div class="main_icons">
+            <div class="text box">
+                <p>valor bruto por dia</p>
+                <p id="valor_dia" class="value_text">300.00</p>
+            </div>
+    
+            <div class="text box">
+                <p>valor bruto por semana</p>
+                <p id="valor_semana" class="value_text">300.00</p>
+            </div>
+    
+            <div class="text box">
+                <p>valor bruto mensal</p>
+                <p id="valor_mes" class="value_text">300.00</p>            
+            </div>
+        </div>
+        <div class="">
+            <div class="text box big_box">
+                <p>valor bruto anual</p>
+                <p id="valor_ano" class="value_text">300.00</p>            
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="col_20 text"></div>
+    <div class="text">
+        para saber mais sobre valores de taxa de transferencia veja a calculadora de cambio
+        <a href="https://www.remessaonline.com.br/?utm_id=8621610621&matchtype=e&placement=&adgroupid=89840137434&loc_interest_ms=&loc_physical_ms=1001692&network=g&target=&adposition=&utm_source=google&utm_medium=cpc&utm_campaign=RM_Search_Desk_Brand_BR_PF&utm_term=simulador%20remessa%20online&utm_content=567527082418">aqui</a>
+    </div>
+    <div class="text">
+        para saber mais sobre os impostos clique
+        <a href="https://www.contabilizei.com.br/calculadora-clt-pj/">aqui</a>
+    </div>
+</body>
+
+<script src="js/index.js"></script>
+<script>
+    getDolarValue();
+    calculateSalary();
+</script>
+</html>

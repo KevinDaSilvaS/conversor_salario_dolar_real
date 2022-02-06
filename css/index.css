@@ -1,0 +1,78 @@
+.page {
+    background-color: #222831;
+}
+
+.main_icons {
+    display: flex;
+    padding: 2%;
+}
+
+.text {
+    font-family: system-ui;
+    color: #EEEEEE;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.text_icon {
+    font-size: 60px;
+    color: #f0f8ff4f;
+}
+
+.box {
+    box-shadow: #eeeeee6c 1px 1px 25px;
+    border-radius: 5%;
+    width: 25%;
+    padding: 2%;
+}
+
+.big_box {
+    border-radius: 0%;
+    width: 90%;
+    padding: 1%;
+    
+}
+
+.input_text {
+    width: 50%;
+}
+
+input:focus-visible {
+    outline: #EEEEEE 0px;
+    outline-style: solid;
+    border-bottom: #eeeeee8c 1px;
+    border-style: solid;
+}
+
+.value_text {
+    background: #faebd700;
+    border: 0px;
+    color: #EEEEEE;
+    font-size: 35px;
+    text-align: center;
+}
+
+.col_80 {
+    float: left;
+    width: 70%;
+}
+
+.col_20 {
+    width: 20%;
+    float: right;
+}
+
+.header {
+    padding: 25px;
+    background-color: #49c098;
+    width: 100%;
+    margin-left: -0.5%;
+    margin-top: -0.5%;
+    float: left;
+    margin-bottom: 2%;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bolder;
+    box-shadow: #4ecca2c5 0px 0px 25px;
+}
