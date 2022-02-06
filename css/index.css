@@ -76,3 +76,7 @@ input:focus-visible {
     font-weight: bolder;
     box-shadow: #4ecca2c5 0px 0px 25px;
 }
+
+a {
+   color: #49c098; 
+}
